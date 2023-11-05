@@ -1,0 +1,773 @@
+2023-11-02 21:20:37 -[INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 21:20:37 -[INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-02 21:20:37 -[INFO] - Completed initialization in 85 ms
+2023-11-02 21:20:37 -[DEBUG] - Entering loadErrorPage() method inside [ com.mydhaba.controller.BaseController ] with following arguments
+2023-11-02 21:20:37 -[DEBUG] - Exited loadErrorPage() method inside [com.mydhaba.controller.BaseController ] with return value : Invalid URL!
+2023-11-02 21:26:19 -[DEBUG] - Entering getAllUsers() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:26:19 -[DEBUG] - Entering getAllUsers() method inside [ com.mydhaba.service.UserService ] with following arguments
+2023-11-02 21:26:20 -[DEBUG] - Exited getAllUsers() method inside [com.mydhaba.service.UserService ] with return value : CustomResponse [message= NO User found!!, data=null]
+2023-11-02 21:26:20 -[DEBUG] - Exited getAllUsers() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message= NO User found!!, data=null]
+2023-11-02 21:26:42 -[DEBUG] - Entering getMenuItem() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:26:42 -[DEBUG] - Entering getAllItems() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:26:42 -[DEBUG] - Exited getAllItems() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=No item found , data=null]
+2023-11-02 21:26:42 -[DEBUG] - Exited getMenuItem() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=No item found , data=null]
+2023-11-02 21:27:15 -[DEBUG] - Entering addNewMenuItem() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:27:15 -[DEBUG] - arg : MenuItem [itemId=null, itemName=null, itemPrice=null, orderItems=[]]
+2023-11-02 21:27:15 -[DEBUG] - Entering addNewItem() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:27:15 -[DEBUG] - arg : MenuItem [itemId=null, itemName=null, itemPrice=null, orderItems=[]]
+2023-11-02 21:27:15 -[DEBUG] - Entering save() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-02 21:27:15 -[DEBUG] - arg : MenuItem [itemId=null, itemName=null, itemPrice=null, orderItems=[]]
+2023-11-02 21:27:15 -[DEBUG] - Exited save() method inside [org.springframework.data.repository.CrudRepository ] with return value : MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]]
+2023-11-02 21:27:15 -[DEBUG] - Exited addNewItem() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=Item added successfully, data=MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]]]
+2023-11-02 21:27:15 -[DEBUG] - Exited addNewMenuItem() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=Item added successfully, data=MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]]]
+2023-11-02 21:27:43 -[DEBUG] - Entering addNewMenuItem() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:27:43 -[DEBUG] - arg : MenuItem [itemId=null, itemName=Roti, itemPrice=12, orderItems=[]]
+2023-11-02 21:27:43 -[DEBUG] - Entering addNewItem() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:27:43 -[DEBUG] - arg : MenuItem [itemId=null, itemName=Roti, itemPrice=12, orderItems=[]]
+2023-11-02 21:27:43 -[DEBUG] - Entering save() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-02 21:27:43 -[DEBUG] - arg : MenuItem [itemId=null, itemName=Roti, itemPrice=12, orderItems=[]]
+2023-11-02 21:27:43 -[DEBUG] - Exited save() method inside [org.springframework.data.repository.CrudRepository ] with return value : MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]
+2023-11-02 21:27:43 -[DEBUG] - Exited addNewItem() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=Item added successfully, data=MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]]
+2023-11-02 21:27:43 -[DEBUG] - Exited addNewMenuItem() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=Item added successfully, data=MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]]
+2023-11-02 21:27:51 -[DEBUG] - Entering getMenuItem() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:27:51 -[DEBUG] - Entering getAllItems() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:27:51 -[DEBUG] - Exited getAllItems() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=Success, data=[MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]], MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]]]
+2023-11-02 21:27:51 -[DEBUG] - Exited getMenuItem() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=Success, data=[MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]], MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]]]
+2023-11-02 21:28:09 -[DEBUG] - Entering getMenuItemById() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:28:09 -[DEBUG] - arg : 1
+2023-11-02 21:28:09 -[DEBUG] - Entering getItemById() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:28:09 -[DEBUG] - arg : 1
+2023-11-02 21:28:09 -[DEBUG] - Entering findById() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-02 21:28:09 -[DEBUG] - arg : 1
+2023-11-02 21:28:09 -[DEBUG] - Exited findById() method inside [org.springframework.data.repository.CrudRepository ] with return value : Optional[MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]]]
+2023-11-02 21:28:09 -[DEBUG] - Exited getItemById() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=success, data=MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]]]
+2023-11-02 21:28:09 -[DEBUG] - Exited getMenuItemById() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=success, data=MenuItem [itemId=1, itemName=null, itemPrice=null, orderItems=[]]]
+2023-11-02 21:28:13 -[DEBUG] - Entering getMenuItemById() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:28:13 -[DEBUG] - arg : 3
+2023-11-02 21:28:13 -[DEBUG] - Entering getItemById() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:28:13 -[DEBUG] - arg : 3
+2023-11-02 21:28:13 -[DEBUG] - Entering findById() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-02 21:28:13 -[DEBUG] - arg : 3
+2023-11-02 21:28:13 -[DEBUG] - Exited findById() method inside [org.springframework.data.repository.CrudRepository ] with return value : Optional.empty
+2023-11-02 21:28:13 -[DEBUG] - Exited getItemById() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-02 21:28:13 -[DEBUG] - Exited getMenuItemById() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-02 21:28:20 -[DEBUG] - Entering getMenuItemById() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:28:20 -[DEBUG] - arg : 2
+2023-11-02 21:28:20 -[DEBUG] - Entering getItemById() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:28:20 -[DEBUG] - arg : 2
+2023-11-02 21:28:20 -[DEBUG] - Entering findById() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-02 21:28:20 -[DEBUG] - arg : 2
+2023-11-02 21:28:20 -[DEBUG] - Exited findById() method inside [org.springframework.data.repository.CrudRepository ] with return value : Optional[MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]]
+2023-11-02 21:28:20 -[DEBUG] - Exited getItemById() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=success, data=MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]]
+2023-11-02 21:28:20 -[DEBUG] - Exited getMenuItemById() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=success, data=MenuItem [itemId=2, itemName=Roti, itemPrice=12, orderItems=[]]]
+2023-11-02 21:28:22 -[DEBUG] - Entering getMenuItemById() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:28:22 -[DEBUG] - arg : 3
+2023-11-02 21:28:22 -[DEBUG] - Entering getItemById() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:28:22 -[DEBUG] - arg : 3
+2023-11-02 21:28:22 -[DEBUG] - Entering findById() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-02 21:28:22 -[DEBUG] - arg : 3
+2023-11-02 21:28:22 -[DEBUG] - Exited findById() method inside [org.springframework.data.repository.CrudRepository ] with return value : Optional.empty
+2023-11-02 21:28:22 -[DEBUG] - Exited getItemById() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-02 21:28:22 -[DEBUG] - Exited getMenuItemById() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-02 21:28:37 -[DEBUG] - Entering getMenuItemById() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-02 21:28:37 -[DEBUG] - arg : 3
+2023-11-02 21:28:37 -[DEBUG] - Entering getItemById() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-02 21:28:37 -[DEBUG] - arg : 3
+2023-11-02 21:28:37 -[DEBUG] - Entering findById() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-02 21:28:37 -[DEBUG] - arg : 3
+2023-11-02 21:28:37 -[DEBUG] - Exited findById() method inside [org.springframework.data.repository.CrudRepository ] with return value : Optional.empty
+2023-11-02 21:28:37 -[DEBUG] - Exited getItemById() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-02 21:28:37 -[DEBUG] - Exited getMenuItemById() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-02 21:30:04 -[INFO] - Application shutdown requested.
+2023-11-02 21:30:04 -[INFO] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-11-02 21:30:04 -[INFO] - Stopping service [Tomcat]
+2023-11-02 21:30:04 -[INFO] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-02 21:30:04 -[INFO] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-11-02 21:30:04 -[INFO] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-11-02 21:30:04 -[INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 21:30:04 -[INFO] - HikariPool-3 - Shutdown initiated...
+2023-11-02 21:30:04 -[INFO] - HikariPool-3 - Shutdown completed.
+2023-11-03 00:09:14 -[INFO] - Starting MyDhabaApplication using Java 17.0.8.1 with PID 7384 (C:\Users\Ashish Yadav\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\MyDhaba\target\classes started by Ashish Yadav in C:\Users\Ashish Yadav\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\MyDhaba)
+2023-11-03 00:09:14 -[DEBUG] - Running with Spring Boot v3.0.13-SNAPSHOT, Spring v6.0.13
+2023-11-03 00:09:14 -[INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-03 00:09:14 -[INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-03 00:09:14 -[INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-03 00:09:15 -[INFO] - Starting MyDhabaApplication using Java 17.0.8.1 with PID 6580 (C:\Users\Ashish Yadav\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\MyDhaba\target\classes started by Ashish Yadav in C:\Users\Ashish Yadav\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\MyDhaba)
+2023-11-03 00:09:15 -[DEBUG] - Running with Spring Boot v3.0.13-SNAPSHOT, Spring v6.0.13
+2023-11-03 00:09:15 -[INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-03 00:09:15 -[INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-03 00:09:15 -[INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-03 00:09:16 -[INFO] - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-03 00:09:16 -[INFO] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-11-03 00:09:16 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.MenuItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:09:16 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.OrderDetailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:09:16 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:09:16 -[INFO] - Finished Spring Data repository scanning in 81 ms. Found 0 JDBC repository interfaces.
+2023-11-03 00:09:16 -[INFO] - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-03 00:09:16 -[INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-03 00:09:16 -[INFO] - Finished Spring Data repository scanning in 82 ms. Found 3 JPA repository interfaces.
+2023-11-03 00:09:17 -[INFO] - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-03 00:09:17 -[INFO] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-11-03 00:09:17 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.MenuItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:09:17 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.OrderDetailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:09:17 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:09:17 -[INFO] - Finished Spring Data repository scanning in 79 ms. Found 0 JDBC repository interfaces.
+2023-11-03 00:09:17 -[INFO] - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-03 00:09:17 -[INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-03 00:09:17 -[INFO] - Finished Spring Data repository scanning in 91 ms. Found 3 JPA repository interfaces.
+2023-11-03 00:09:18 -[INFO] - Tomcat initialized with port(s): 8080 (http)
+2023-11-03 00:09:18 -[INFO] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:09:18 -[INFO] - Starting service [Tomcat]
+2023-11-03 00:09:18 -[INFO] - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-03 00:09:19 -[INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-03 00:09:19 -[INFO] - Root WebApplicationContext: initialization completed in 4618 ms
+2023-11-03 00:09:19 -[INFO] - Tomcat initialized with port(s): 8080 (http)
+2023-11-03 00:09:19 -[INFO] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:09:19 -[INFO] - Starting service [Tomcat]
+2023-11-03 00:09:19 -[INFO] - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-03 00:09:19 -[INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-03 00:09:19 -[INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-03 00:09:19 -[INFO] - Root WebApplicationContext: initialization completed in 4389 ms
+2023-11-03 00:09:19 -[INFO] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-11-03 00:09:20 -[INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-03 00:09:20 -[INFO] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-11-03 00:09:20 -[INFO] - HikariPool-1 - Starting...
+2023-11-03 00:09:21 -[INFO] - HikariPool-1 - Starting...
+2023-11-03 00:09:21 -[INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5844f087
+2023-11-03 00:09:21 -[INFO] - HikariPool-1 - Start completed.
+2023-11-03 00:09:21 -[INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-11-03 00:09:21 -[INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79e66ae4
+2023-11-03 00:09:22 -[INFO] - HikariPool-1 - Start completed.
+2023-11-03 00:09:22 -[INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "create table items (item_id integer not null, item_name varchar(255), item_price integer, primary key (item_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table items (item_id integer not null, item_name varchar(255), item_price integer, primary key (item_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'items' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 41 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "create table items_seq (next_val bigint) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table items_seq (next_val bigint) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'items_seq' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 41 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "create table orderitem (quantity integer, item_id integer not null, order_id integer not null, primary key (item_id, order_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table orderitem (quantity integer, item_id integer not null, order_id integer not null, primary key (item_id, order_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'orderitem' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 41 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "create table orders (order_id integer not null, order_amount integer, order_date date, status bit not null, user_id integer, primary key (order_id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table orders (order_id integer not null, order_amount integer, order_date date, status bit not null, user_id integer, primary key (order_id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'orders' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 41 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "create table orders_seq (next_val bigint) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table orders_seq (next_val bigint) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'orders_seq' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 41 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "create table users (id integer not null, dob date, email varchar(255), password varchar(255), role varchar(255), username varchar(255), primary key (id)) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table users (id integer not null, dob date, email varchar(255), password varchar(255), role varchar(255), username varchar(255), primary key (id)) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'users' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 41 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "create table users_seq (next_val bigint) engine=InnoDB" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table users_seq (next_val bigint) engine=InnoDB" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:307)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:79)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:225)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLSyntaxErrorException: Table 'users_seq' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 41 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "alter table orderitem add constraint FK5rcgjckltb803qvwv4jnbh8el foreign key (item_id) references items (item_id)" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table orderitem add constraint FK5rcgjckltb803qvwv4jnbh8el foreign key (item_id) references items (item_id)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:458)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:278)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Duplicate foreign key constraint name 'FK5rcgjckltb803qvwv4jnbh8el'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 40 common frames omitted
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "alter table orderitem add constraint FKhcggihiup2358o98a7uuxqoxb foreign key (order_id) references orders (order_id)" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table orderitem add constraint FKhcggihiup2358o98a7uuxqoxb foreign key (order_id) references orders (order_id)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:458)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:278)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Duplicate foreign key constraint name 'FKhcggihiup2358o98a7uuxqoxb'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 40 common frames omitted
+2023-11-03 00:09:25 -[INFO] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-03 00:09:25 -[WARN] - GenerationTarget encountered exception accepting command : Error executing DDL "alter table orders add constraint FK32ql8ubntj5uh44ph9659tiih foreign key (user_id) references users (id)" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "alter table orders add constraint FK32ql8ubntj5uh44ph9659tiih foreign key (user_id) references users (id)" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:587)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:532)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applyForeignKeys(AbstractSchemaMigrator.java:458)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:278)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:126)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143)
+	at java.base/java.util.HashMap.forEach(HashMap.java:1421)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:336)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:415)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1423)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1166)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:940)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:616)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.mydhaba.MyDhabaApplication.main(MyDhabaApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.sql.SQLException: Duplicate foreign key constraint name 'FK32ql8ubntj5uh44ph9659tiih'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:763)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:94)
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 40 common frames omitted
+2023-11-03 00:09:25 -[INFO] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-03 00:09:25 -[INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03 00:09:25 -[INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03 00:09:26 -[WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-03 00:09:26 -[WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-03 00:09:28 -[INFO] - LiveReload server is running on port 35729
+2023-11-03 00:09:28 -[WARN] - Unable to start LiveReload server
+2023-11-03 00:09:28 -[INFO] - Starting ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:09:28 -[INFO] - Starting ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:09:28 -[WARN] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-03 00:09:28 -[INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03 00:09:28 -[INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-03 00:09:28 -[INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-03 00:09:28 -[INFO] - HikariPool-1 - Shutdown completed.
+2023-11-03 00:09:28 -[INFO] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:09:28 -[INFO] - Stopping service [Tomcat]
+2023-11-03 00:09:28 -[INFO] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:09:28 -[INFO] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:09:28 -[INFO] - Started MyDhabaApplication in 16.094 seconds (process running for 22.271)
+2023-11-03 00:09:29 -[INFO] - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-03 00:09:29 -[ERROR] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-11-03 00:10:12 -[INFO] - Application shutdown requested.
+2023-11-03 00:10:12 -[INFO] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:10:12 -[INFO] - Stopping service [Tomcat]
+2023-11-03 00:10:12 -[INFO] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:10:12 -[INFO] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:10:12 -[INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03 00:10:12 -[INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-03 00:10:12 -[INFO] - HikariPool-1 - Shutdown completed.
+2023-11-03 00:11:37 -[INFO] - Starting MyDhabaApplication using Java 17.0.8.1 with PID 5132 (C:\Users\Ashish Yadav\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\MyDhaba\target\classes started by Ashish Yadav in C:\Users\Ashish Yadav\Documents\workspace-spring-tool-suite-4-4.20.0.RELEASE\MyDhaba)
+2023-11-03 00:11:37 -[DEBUG] - Running with Spring Boot v3.0.13-SNAPSHOT, Spring v6.0.13
+2023-11-03 00:11:37 -[INFO] - No active profile set, falling back to 1 default profile: "default"
+2023-11-03 00:11:37 -[INFO] - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-03 00:11:37 -[INFO] - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-03 00:11:39 -[INFO] - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-03 00:11:39 -[INFO] - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-11-03 00:11:39 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.MenuItemRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:11:39 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.OrderDetailRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:11:39 -[INFO] - Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.mydhaba.repository.UserRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2023-11-03 00:11:39 -[INFO] - Finished Spring Data repository scanning in 71 ms. Found 0 JDBC repository interfaces.
+2023-11-03 00:11:39 -[INFO] - Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-03 00:11:39 -[INFO] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-03 00:11:39 -[INFO] - Finished Spring Data repository scanning in 56 ms. Found 3 JPA repository interfaces.
+2023-11-03 00:11:40 -[INFO] - Tomcat initialized with port(s): 8080 (http)
+2023-11-03 00:11:40 -[INFO] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:11:40 -[INFO] - Starting service [Tomcat]
+2023-11-03 00:11:40 -[INFO] - Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-03 00:11:40 -[INFO] - Initializing Spring embedded WebApplicationContext
+2023-11-03 00:11:40 -[INFO] - Root WebApplicationContext: initialization completed in 2968 ms
+2023-11-03 00:11:41 -[INFO] - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-03 00:11:41 -[INFO] - HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-11-03 00:11:41 -[INFO] - HikariPool-1 - Starting...
+2023-11-03 00:11:42 -[INFO] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79e66ae4
+2023-11-03 00:11:42 -[INFO] - HikariPool-1 - Start completed.
+2023-11-03 00:11:42 -[INFO] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2023-11-03 00:11:44 -[INFO] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-03 00:11:44 -[INFO] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03 00:11:45 -[WARN] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-03 00:11:47 -[INFO] - LiveReload server is running on port 35729
+2023-11-03 00:11:47 -[INFO] - Starting ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:11:47 -[INFO] - Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-03 00:11:47 -[INFO] - Started MyDhabaApplication in 10.489 seconds (process running for 12.303)
+2023-11-03 00:12:04 -[INFO] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-03 00:12:04 -[INFO] - Initializing Servlet 'dispatcherServlet'
+2023-11-03 00:12:04 -[INFO] - Completed initialization in 2 ms
+2023-11-03 00:12:04 -[DEBUG] - Entering getMenuItemById() method inside [ com.mydhaba.controller.APIController ] with following arguments
+2023-11-03 00:12:04 -[DEBUG] - arg : 3
+2023-11-03 00:12:04 -[DEBUG] - Entering getItemById() method inside [ com.mydhaba.service.MenuItemService ] with following arguments
+2023-11-03 00:12:04 -[DEBUG] - arg : 3
+2023-11-03 00:12:04 -[DEBUG] - Entering findById() method inside [ org.springframework.data.repository.CrudRepository ] with following arguments
+2023-11-03 00:12:04 -[DEBUG] - arg : 3
+2023-11-03 00:12:05 -[DEBUG] - Exited findById() method inside [org.springframework.data.repository.CrudRepository ] with return value : Optional.empty
+2023-11-03 00:12:05 -[DEBUG] - Exited getItemById() method inside [com.mydhaba.service.MenuItemService ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-03 00:12:05 -[DEBUG] - Exited getMenuItemById() method inside [com.mydhaba.controller.APIController ] with return value : CustomResponse [message=No item found for id 3, data=null]
+2023-11-03 00:12:36 -[DEBUG] - Entering loadLoginPage() method inside [ com.mydhaba.controller.BaseController ] with following arguments
+2023-11-03 00:12:36 -[DEBUG] - loading login Page
+2023-11-03 00:12:36 -[DEBUG] - Exited loadLoginPage() method inside [com.mydhaba.controller.BaseController ] with return value : login
+2023-11-03 00:12:36 -[WARN] - "Path with "WEB-INF" or "META-INF": [WEB-INF/jsp/login.jsp]"
+2023-11-03 00:12:36 -[DEBUG] - Entering loadErrorPage() method inside [ com.mydhaba.controller.BaseController ] with following arguments
+2023-11-03 00:12:36 -[DEBUG] - Exited loadErrorPage() method inside [com.mydhaba.controller.BaseController ] with return value : Invalid URL!
+2023-11-03 00:25:27 -[INFO] - Application shutdown requested.
+2023-11-03 00:25:27 -[INFO] - Pausing ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:25:27 -[INFO] - Stopping service [Tomcat]
+2023-11-03 00:25:27 -[INFO] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-11-03 00:25:27 -[INFO] - Stopping ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:25:27 -[INFO] - Destroying ProtocolHandler ["http-nio-8080"]
+2023-11-03 00:25:27 -[INFO] - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03 00:25:27 -[INFO] - HikariPool-1 - Shutdown initiated...
+2023-11-03 00:25:27 -[INFO] - HikariPool-1 - Shutdown completed.
